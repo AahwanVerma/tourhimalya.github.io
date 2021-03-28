@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    /* background-color: skyblue; */
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    font-size: 1.5rem;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+.logo img{
+    height: 66px;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+    height: 90vh;
+    width: 100%;
+}
+#home h1{
+    font-size: 4rem;
+}
+#home p{
+    font-size: 2rem;
+}
+#navbar::before{
+    background: url(https://images.unsplash.com/photo-1606895867186-8b13d9f7f5f8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80) no-repeat center center/cover;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#services{
+    display: flex;
+    /* text-align: center;  */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+#ride::before{
+    background: url(img1.jpg) no-repeat center center/cover;
+    position: absolute;
+    content: "";
+    height: 45%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#ride{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 0px;
+}
+#nepal::before{
+    background: url(img2.jpg) no-repeat center center/cover;
+    position: absolute;
+    content: "";
+    height: 45%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#nepal{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0px;
+}
+#bhutan::before{
+    background: url(img3.jpg) no-repeat center center/cover;
+    position: absolute;
+    content: "";
+    height: 45%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#bhutan{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 0px;
+}
+#laddakh::before{
+    background: url(img4.jpg) no-repeat center center/cover;
+    position: absolute;
+    content: "";
+    height: 45%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#laddakh{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0px;
+}
+button{
+    width: 120px;
+}
+.btn{
+    padding: 12px;
+    border-radius: 6px;
+    background: none;
+    font: bold;
+}
+.btn:hover{
+    background-color: red;
+}
+#aboutus{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows: 4fr 4fr 4fr;
+    background-color: rgb(241, 240, 240);
+}
+#aboutus div{
+    height: 300px;
+    /* width: 300px; */
+    border: 1px solid;
+}
+/* #aboutus::4th:forth :last-child{
+    grid-column-start:1;
+    grid-column
+} */
+
+#services h1{
+    font-size: 4rem;
+    margin: 0px;
+}
+#aboutus h1{
+    font-size: 4rem;
+    margin: 12px 0px;
+}
+.box:first-child p{
+   text-align: center;
+   font-size: 3rem;
+   background-color: red;
+}
+.box{
+    background-color: rgb(238, 173, 87);
+}
+.para{
+    font-size: 3rem;
+    text-align: center;
+}
+#contact{
+    background-color: rgb(241, 240, 240);
+}
+#contact h1{
+    font-size: 4rem;
+    margin: 12px 0px;
+}
+#contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact form input{
+    padding: 12px;
+    margin: 12px;
+    width: 50%;
+}
+#contact form textarea{
+    padding: 12px;
+    margin: 12px;
+    width: 50%;
+}
+.submit{
+    padding: 12px;
+    margin: 12px;
+    width: 52%;
+    background-color: rgb(236, 108, 108);
+}
+.submit:hover{
+    background-color: red;
+}
+footer{
+    padding: 12px;
+    margin-top: 12px;
+    background-color: rgb(22, 21, 21);
+}
+footer p{
+    color: white;
+    text-align: center;
+}
